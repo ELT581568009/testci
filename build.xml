@@ -1,0 +1,9 @@
+<project name="Hello" basedir="." default="main">
+    <property name="dir.src"     value="."/>
+    <property name="dir.build"   value="build"/>
+    <property name="dir.classes" value="${dir.build}/classes"/>
+    <property name="dir.jar"     value="${dir.build}/jar"/>
+
+    <property name="main-class"  value="Hello"/>
+
+    <target name="clean">
